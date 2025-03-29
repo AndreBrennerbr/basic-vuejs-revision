@@ -8,8 +8,8 @@
   import EscutaEvento from './components/EscutaEvento.vue';
   import PropriedadesComputadas from './components/PropriedadesComputadas.vue';
   import PropriedadesAssistidas from './components/PropriedadesAssistidas.vue';
-  import RederizacaoCondiciona from './components/RederizacaoCondiciona.vue';
-  import RederizacaoListas from './components/RederizacaoListas.vue';
+  import RenderizacaoCondiciona from './components/RenderizacaoCondiciona.vue';
+  import RenderizacaoListas from './components/RenderizacaoListas.vue';
   import Slots from './components/Slots.vue'
   
   const borracha="Borracha"
@@ -48,8 +48,8 @@
       Home
     </template>
   </Slots>
-  <RederizacaoListas nome="Brenner" :cachorros="CachorrosBrenner"/>
-  <RederizacaoCondiciona nome="André Brenner" :qtde-cachorros="1"/>
+  <RenderizacaoListas nome="Brenner" :cachorros="CachorrosBrenner"/>
+  <RenderizacaoCondiciona nome="André Brenner" :qtde-cachorros="1"/>
   <PropriedadesAssistidas/>
   <PropriedadesComputadas/>
   <EscutaEvento/>
